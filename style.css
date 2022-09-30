@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto;
+}
+.card{
+    width: 250px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 0px 0px 0px 30px;
+    overflow: hidden;
+}
+.img{
+    width: 100%;
+}
+.card-title{
+    font-size: 36px;
+    padding-bottom: 25px;
+}
+.card-title2{
+    color: #c68332;
+    font-size: 24px;
+    padding-bottom: 45px;
+}
+.card-text{
+    line-height: 14px;
+}
+.text-wrapper{
+    padding: 35px 10px 10px 20px;
+    margin-bottom: 40px;
+}
+.button{
+    display: block;
+    width: 50px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 48px;
+    background-color: #c68332;
+    transition: 0.4s;
+}
+.button:hover{
+    background-color: burlywood;
+}
